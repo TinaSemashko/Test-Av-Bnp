@@ -9,3 +9,5 @@ pnpm-lock.yaml
 reports
 test-results
 playwright-report
+
+.env
