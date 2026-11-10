@@ -19,7 +19,6 @@ describe("fizzbuzz", () => {
       expect(fizzbuzz(n)).toBe("FizzBuzz");
     });
 
-
     it.each([-1, 1.5, 0, NaN])("returns error for invalid number %s", (n) => {
         expect(() => fizzbuzz(n)).toThrowError("Input must be a positive integer");
     });
